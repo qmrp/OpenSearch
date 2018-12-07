@@ -1,0 +1,22 @@
+{
+    "name": "OpenSearch/search",
+    "description": "Aliyun opensearch for Yii2",
+    "keywords": [ "aliyun", "search", "OpenSearch", "Yii2"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "zhou",
+            "homepage": "https://saviorlv.github.io/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+		"yiisoft/yii2": "~2.0.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenSearch": "src/"
+        }
+    }
+}
