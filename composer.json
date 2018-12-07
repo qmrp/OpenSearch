@@ -1,5 +1,5 @@
 {
-    "name": "open-search/OpenSarch",
+    "name": "open-search/search",
     "description": "基于yii2的阿里opensearch sdk",
     "type": "metapackage",
     "license": "Apache2",
