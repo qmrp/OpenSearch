@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OpenSearch": "src/"
+            "open-search": "src/"
         }
     }
 }
