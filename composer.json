@@ -19,7 +19,7 @@
             "OpenSearch\\Client\\": "src/OpenSearch/Client",
             "OpenSearch\\Generated\\": "src/OpenSearch/Generated",
             "OpenSearch\\Thrift\\": "src/OpenSearch/Thrift",
-            "OpenSearch\\Util\\": "src/OpenSearch/Util",
+            "OpenSearch\\Util\\": "src/OpenSearch/Util"
         }
     }   
 }
