@@ -1,22 +1,22 @@
 {
     "name": "open-search/search",
-    "description": "Aliyun opensearch for Yii2",
-    "keywords": [ "aliyun", "search", "OpenSearch", "Yii2"],
-    "type": "library",
-    "license": "Apache-2.0",
+    "description": "基于yii2的阿里opensearch sdk",
+    "type": "metapackage",
+    "license": "Apache2",
     "authors": [
         {
-            "name": "zhou",
-            "homepage": "https://github.com/qmrp/OpenSearch"
+            "name": "周志刚",
+            "email": "zhouzhigangqmrp@163.com"
         }
     ],
+    "license": "MIT",
     "require": {
-        "php": ">=5.5.0",
-		"yiisoft/yii2": "~2.0.14"
+        "php": ">=5.4"
     },
     "autoload": {
         "psr-4": {
-            "open-search": "src/"
+            "OpenSarch\\": "src/"
         }
-    }
+    },
+    "require": {}
 }
