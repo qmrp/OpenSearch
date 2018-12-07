@@ -1,5 +1,5 @@
 {
-    "name": "OpenSearch/search",
+    "name": "open-search/search",
     "description": "Aliyun opensearch for Yii2",
     "keywords": [ "aliyun", "search", "OpenSearch", "Yii2"],
     "type": "library",
