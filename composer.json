@@ -1,22 +1,25 @@
 {
     "name": "open-search/search",
-    "description": "基于yii2的阿里opensearch sdk",
+    "description": "yii ali opensearch",
     "type": "metapackage",
-    "license": "Apache2",
+    "license": "MIT",
     "authors": [
         {
             "name": "周志刚",
             "email": "zhouzhigangqmrp@163.com"
         }
     ],
-    "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4"
+        "php": ">=5.4.0",
     },
     "autoload": {
         "psr-4": {
-            "OpenSarch\\": "open-search/src/"
+            "OpenSearch\\": "src/OpenSearch",
+            "OpenSearch\\Client\\": "src/OpenSearch/Client",
+            "OpenSearch\\Generated\\": "src/OpenSearch/Generated",
+            "OpenSearch\\Thrift\\": "src/OpenSearch/Thrift",
+            "OpenSearch\\Util\\": "src/OpenSearch/Util",
         }
-    },
-    "require": {}
+    }   
 }
